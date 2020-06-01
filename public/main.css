@@ -1,0 +1,163 @@
+body#new {
+    /* background-image: url('/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #9B5AB6;
+    font-family: 'europa';
+}
+
+.titleteam {
+    font-size: 6em;
+    color: #fff;
+    margin-top: 0em;
+}
+
+.center {
+    text-align: center;
+}
+
+.thinklogo {
+    width: 50%;
+}
+
+.mono {
+    font-family: 'europa-regular';
+}
+
+.white {
+    color: #fff;
+}
+
+.think {
+    font-family: 'adobe garamond pro';
+    color: #fff;
+    font-size: 5em;
+}
+
+.info {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.allinfo {}
+
+.navlogo {
+    width: 10em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.textitems li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.purple li a {
+    color: #9B5AB6;
+    text-decoration: none;
+}
+
+.right {
+    text-align: right;
+}
+
+.textitems li {
+    margin: 0 1em;
+}
+
+#impulseinfo {
+    margin-top: 6.5em;
+    margin-bottom: 5.5em;
+}
+
+.flexforinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.impitem {
+    width: 50%;
+}
+
+.leftitem {
+    margin-right: 1em;
+}
+
+.rightitem {
+    margin-left: 1em;
+}
+
+.none {
+    display: none;
+}
+
+footer p {
+    margin: 0;
+}
+
+.vert-line {
+    width: 1px;
+    height: 250px;
+    background-color: #fff;
+    margin: 4.4em 1em 0 1em;
+}
+
+footer {
+    padding: 1em 0;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+    }
+    .vert-line {
+        display: none;
+    }
+    .flexforinfo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .titleteam {
+        text-align: center;
+    }
+    .impitem {
+        width: 90%;
+        text-align: center;
+        margin: 0 0 2em 0;
+    }
+    .none {
+        display: block;
+    }
+    .disp {
+        display: none;
+    }
+    #impulseinfo {
+        margin-top: 2em;
+        margin-bottom: 3.5em;
+    }
+    footer {
+        text-align: center;
+    }
+    .right {
+        text-align: center;
+    }
+    .quote {
+        display: none;
+    }
+}

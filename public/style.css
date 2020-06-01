@@ -1,0 +1,429 @@
+@font-face {
+    font-family: "europa";
+    src: url("/fonts/europa-bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "europa-regular";
+    src: url("/fonts/europa-regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "adobe garamond pro";
+    src: url("/fonts/garamond.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.vertcenter {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.purpletext {
+    color: #9B5AB6;
+}
+
+/* Navbar */
+
+/* nav {
+    padding: 2em 0;
+    background-color: #9B5AB6;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'futura lt';
+    letter-spacing: 0.1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+} */
+
+/* Footer */
+
+.right {
+    text-align: right;
+}
+
+footer, footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Content */
+
+body#main {
+    background-color: #9B5AB6;
+    color: #fff;
+}
+
+.logomain {
+    width: 80%;
+    margin-top: 4em;
+}
+
+section.mainbody {
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+
+.maintitle {
+    font-family: 'futura lt regular';
+    font-size: 5em;
+}
+
+/* Registrations page */
+
+body {
+    font-family: 'europa';
+}
+
+section#player {
+    margin-bottom: 1.5em;
+    padding: 1.5em 0;
+}
+
+.borders {
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.required {
+    color: #ff0000;
+}
+
+/* Members Page */
+
+.grid {
+    display: grid;
+    grid-gap: 3em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.custom-grid {
+    display: grid;
+    grid-gap: 3em;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.custom-grid .box {
+    width: 66.666666%;
+}
+
+.box {
+    text-align: center;
+}
+
+.box h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.box h3 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 0;
+    color: rgb(75, 75, 75);
+}
+
+.box {
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #9B5AB6;
+    padding: 1em;
+}
+
+#members {
+    margin: 3.5em 0;
+}
+
+.member-head {
+    width: 60%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.box img {
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 750px) {
+    .grid {
+        display: grid;
+        grid-gap: 3em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .custom-grid {
+        display: grid;
+        grid-gap: 3em;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .custom-grid .box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .member-head {
+        width: 90%;
+    }
+}
+
+/* Registration Page */
+
+.regs-button {
+    margin-top: -1em;
+    width: 40%;
+    font-family: 'europa';
+    margin-bottom: 5em;
+}
+
+@media (max-width: 750px) {
+    .regs-button {
+        width: 100%;
+    }
+}
+
+/* Success Page */
+
+#success {
+    background-color: #fff;
+    color: #9B5AB6;
+}
+
+h5 {
+    margin: 0;
+}
+
+a.contact {
+    color: #9B5Ab6;
+}
+
+a.contact:hover {
+    color: #6F248F;
+}
+
+.success-sec {
+    margin-bottom: 6em;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: #9B5AB6;
+}
+
+::selection {
+    color: #fff;
+    background: #9B5AB6;
+}
+
+.spac {
+    letter-spacing: 0.1em;
+}
+
+#player h5 {
+    margin-bottom: 0.5em;
+}
+
+/* scrollbar shit */
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #6F248F;
+    border-left-color: #6F248F;
+    width: 1em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #6F248F;
+    outline: 1px solid slategrey;
+}
+
+/* rules page */
+
+.photu {
+    padding-top: 50px;
+    padding-left: 750px;
+}
+
+.impulse {
+    position: absolute;
+    color: white;
+    font-family: raleway;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-left: 130px;
+    padding-bottom: 0px;
+}
+
+.para {
+    position: absolute;
+    color: white;
+    font-family: raleway;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 260px;
+    padding-left: 135px;
+}
+
+.pyaar {
+    color: white;
+    font-size: 7px;
+    font-family: comfortaa;
+    padding-left: 1100px;
+    padding-bottom: 0px;
+}
+
+.intro-rules {
+    font-size: 1.2em;
+}
+
+/* Schedule styling */
+
+.crip {
+    background-color: none;
+}
+
+.don2 {
+    display: none;
+}
+
+.don1 {
+    display: box;
+}
+
+#day-one {
+    background: #fff;
+    border: 1px solid #EEE;
+    outline: none;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    color: #000;
+    font-family: 'europa';
+}
+
+#day-two {
+    background: #fff;
+    border: 1px solid #EEE;
+    outline: none;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    font-family: 'europa';
+    color: #000;
+}
+
+#day-one.selected {
+    background-color: #9B5AB6;
+    color: #fff;
+}
+
+#day-two.selected {
+    background-color: #9B5AB6;
+    color: #fff;
+}
+
+ol li {
+    margin-left: 1em;
+}
+
+p.sizing {
+    font-size: 1.2em;
+}
+
+.buttonsdue {
+    margin: 1em 0;
+}
+
+.oldie {
+    font-family: 'adobe garamond pro';
+}
+
+/* Examples Section */
+
+.card {
+    padding: 2em;
+    border-style: solid;
+    border-color: #9B5AB6;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+p.mono {
+    font-size: 1.2em;
+}
+
+.answer {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.quesbr {
+    margin-top: 5em;
+}
+
+.button-primary {
+    font-family: 'europa';
+}
+
+.enigmabtn {
+    margin-bottom: 5em;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Trick */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    padding: 1em 0;
+}
