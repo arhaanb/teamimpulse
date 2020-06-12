@@ -37,6 +37,7 @@ _This website was created using NodeJS, Express, and Pug - A template engine for
       - EMAIL
       - PASSWORD
       - SHEET_ID
+      
     _This project is configured to work only with Gmail accounts._
 
 1. **Follow these steps to enable all functionality from the website**
