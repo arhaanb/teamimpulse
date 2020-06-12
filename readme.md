@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://i.postimg.cc/mZKwxvc0/IMG-20191102-WA0002.jpg" width="60" />
+    <img alt="Team Impulse by Arhaan Bahadur" src="https://i.postimg.cc/mZKwxvc0/IMG-20191102-WA0002.jpg" width="60"/>
   </a>
 </p>
 <h1 align="center">
@@ -57,7 +57,7 @@ _This website was created using NodeJS, Express, and Pug - A template engine for
 
 ## 🧐 What's inside?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+A quick look at the top-level files and directories you'll see in this project.
 
     .
     ├── node_modules
