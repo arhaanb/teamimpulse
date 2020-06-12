@@ -89,10 +89,13 @@ A quick look at the top-level files and directories you'll see in this project.
 
 ## 💫 Functionality and Pages
 
+Every submission is stored in a Google Sheet with a randomly generated password for each team. Each team also receives a confirmation email with their team information instantly.
+
 1. **/** - Overview of Team Impulse
 2. **/members** - A list of members in Team Impulse with their positions
-3. **/register** - A registration page for Enigma - Team Impulse's annual online cryptic hunt. Every submission is stored in a Google Sheet with a randomly generated password for each team. Each team also receives a confirmation email with their team information instantly.
-4. **/enigma** - Redirects to the URL where Enigma was held (https://enigma.teamimpulse.co.in).
+3. **/register** - A registration page for Enigma - Team Impulse's annual online cryptic hunt. This route will show you that registrations have ended. you can access the register page at ```/arhaanb```.
+4. **/arhaanb** - Registration functionality here. (Ideally should have been present at ```/register``` but it was disabled since registrations ended.)
+5. **/enigma** - Redirects to the URL where Enigma was held (https://enigma.teamimpulse.co.in).
 
 <!-- ## 🎓 Learning NodeJS
 
