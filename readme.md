@@ -33,7 +33,7 @@ _This website was created using NodeJS, Express, and Pug - A template engine for
 
 1.  **Open the source code and start editing!**
 
-    Use your favourite code editor and start coding!
+    Use your favourite code editor and start coding! Create a .env file in the root directory and fill it with 
 
 1. **Compile and run your code**
 
@@ -66,15 +66,17 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-3.  **`routes`**: This folder contains routes that the user would visit and which files it will render for them.
+4.  **`routes`**: This folder contains routes that the user would visit and which files it will render for them.
 
-3.  **`public`**: This folder contains all files which are available publicly on the server, such as the CSS files, images, fonts, etc.
+5.  **`public`**: This folder contains all files which are available publicly on the server, such as the CSS files, images, fonts, etc.
 
-4. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+6. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-5. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+7. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-6. **`README.md`**: A text file containing useful reference information about your project.
+8. **`README.md`**: A text file containing useful reference information about your project.
+
+## 💫 Functionality
 
 <!-- ## 🎓 Learning NodeJS
 
