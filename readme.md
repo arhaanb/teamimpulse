@@ -33,7 +33,16 @@ _This website was created using NodeJS, Express, and Pug - A template engine for
 
 1.  **Open the source code and start editing!**
 
-    Use your favourite code editor and start coding! Create a .env file in the root directory and fill it with 
+    Use your favourite code editor and start coding! Create a .env file in the root directory and fill it with the following details:
+      - EMAIL
+      - PASSWORD
+      - SHEET_ID
+    _This project is configured to work only with Gmail accounts._
+
+1. **Follow these steps to enable all functionality from the website**
+
+  - Generate API keys for Google Sheets from (URL).
+  - Enable "Allow less secure apps access to your gmail account" from https://myaccount.google.com/lesssecureapps
 
 1. **Compile and run your code**
 
@@ -76,7 +85,12 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 8. **`README.md`**: A text file containing useful reference information about your project.
 
-## 💫 Functionality
+## 💫 Functionality and Pages
+
+1. / - Overview of Team Impulse
+2. /members - A list of members in Team Impulse with their positions
+3. /register - A registration page for Enigma - Team Impulse's annual online cryptic hunt. Every submission is stored in a Google Sheet with a randomly generated password for each team. Each team also receives a confirmation email with their team information instantly.
+4. /enigma - Redirects to the URL where Enigma was held (https://enigma.teamimpulse.co.in).
 
 <!-- ## 🎓 Learning NodeJS
 
