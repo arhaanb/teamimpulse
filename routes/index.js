@@ -7,7 +7,7 @@ const request = require('request');
 var GoogleSpreadsheet = require('google-spreadsheet');
 var creds = require('../client_secret.json');
 // Create a document object using the ID of the spreadsheet - obtained from its URL.
-var doc = new GoogleSpreadsheet('1qko2VUBdExnP4bWy3A9KBWlJWZ4pF1Y_-YrLrLNmWnk');
+var doc = new GoogleSpreadsheet(process.env.SHEET_ID);
 
 
 

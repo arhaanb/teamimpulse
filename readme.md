@@ -41,8 +41,9 @@ _This website was created using NodeJS, Express, and Pug - A template engine for
 
 1. **Follow these steps to enable all functionality from the website**
 
-  - Generate API keys for Google Sheets from (URL).
-  - Enable "Allow less secure apps access to your gmail account" from https://myaccount.google.com/lesssecureapps
+    - Generate API keys for Google Sheets from (https://console.developers.google.com/apis/). Create a new project and enable the Google Spreadsheet API. Download your credentials (API Keys) and store them in a `client_secret.json` file in the root directory. Also remember to share the spreadsheet you are using with the 'Service Account' that google provides, and give it edit access, as that email will be writing all new submissions onto your spreadsheets.
+
+    - Enable "Allow less secure apps access to your gmail account" from https://myaccount.google.com/lesssecureapps
 
 1. **Compile and run your code**
 
@@ -50,7 +51,7 @@ _This website was created using NodeJS, Express, and Pug - A template engine for
     ```shell
     node app.js
     ```
-    You will find your website live on https://localhost:5000
+    You will find your website live on https://localhost:5000. To edit the frontend, edit files availaible in the views directory. To edit the contents of the confirmation email, edit the `email.hbs` file.
     _Note: You will have to run this command every time you make changes to the source code. To avoid this, you can install a package called nodemon - https://www.npmjs.com/package/nodemon. This will update the browser every time you save your files automatically._
 
 ## 🧐 What's inside?
@@ -87,10 +88,10 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 ## 💫 Functionality and Pages
 
-1. / - Overview of Team Impulse
-2. /members - A list of members in Team Impulse with their positions
-3. /register - A registration page for Enigma - Team Impulse's annual online cryptic hunt. Every submission is stored in a Google Sheet with a randomly generated password for each team. Each team also receives a confirmation email with their team information instantly.
-4. /enigma - Redirects to the URL where Enigma was held (https://enigma.teamimpulse.co.in).
+1. **/** - Overview of Team Impulse
+2. **/members** - A list of members in Team Impulse with their positions
+3. **/register** - A registration page for Enigma - Team Impulse's annual online cryptic hunt. Every submission is stored in a Google Sheet with a randomly generated password for each team. Each team also receives a confirmation email with their team information instantly.
+4. **/enigma** - Redirects to the URL where Enigma was held (https://enigma.teamimpulse.co.in).
 
 <!-- ## 🎓 Learning NodeJS
 
