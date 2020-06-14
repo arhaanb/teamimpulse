@@ -53,6 +53,7 @@ _This website was created using NodeJS, Express, and Pug - A template engine for
     node app.js
     ```
     You will find your website live on https://localhost:5000. To edit the frontend, edit files availaible in the views directory. To edit the contents of the confirmation email, edit the `email.hbs` file.
+    
     _Note: You will have to run this command every time you make changes to the source code. To avoid this, you can install a package called nodemon - https://www.npmjs.com/package/nodemon. This will update the browser every time you save your files automatically._
 
 ## 🧐 What's inside?
