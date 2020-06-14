@@ -42,7 +42,7 @@ _This website was created using NodeJS, Express, and Pug - A template engine for
 
 1. **Follow these steps to enable all functionality from the website**
 
-    - Generate API keys for Google Sheets from (https://console.developers.google.com/apis/). Create a new project and enable the Google Spreadsheet API. Download your credentials (API Keys) and store them in a `client_secret.json` file in the root directory. Also remember to share the spreadsheet you are using with the 'Service Account' that google provides, and give it edit access, as that email will be writing all new submissions onto your spreadsheets.
+    - Generate API keys for Google Sheets from (https://console.developers.google.com/apis/). Create a new project and enable the Google Spreadsheet API. Download your credentials (API Keys) and store them in a `client_secret.json` file in the root directory. Also remember to share the spreadsheet you are using with the 'Service Account' that google provides, and give it edit access. Thats the email that'll be adding all submissions to your spreadsheet.
 
     - Enable "Allow less secure apps access to your gmail account" from https://myaccount.google.com/lesssecureapps
 
