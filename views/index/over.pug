@@ -2,20 +2,20 @@ extends ../layout
 
 block content
 
-    script(type='text/javascript').
-        var wasSubmitted = false;    
-        function checkBeforeSubmit(){
-        if(!wasSubmitted) {
-            wasSubmitted = true;
-            return wasSubmitted;
-        }   else {
-            return false;
-            }
-        } 
-    .container
-        h1.center Register
-        h5.center.spac ENIGMA
-        p.mono(style="margin-top: 1em; font-size: 1.2em") Registrations for Enigma have ended. The event will be held on 29th May, 2020, and you will recieve your credentials soon.
-            .flex-center   
-                a(href="//enigma.teamimpulse.co.in" target="_blank")
-                    button.button-primary.enigmabtn Enigma
+	script(type='text/javascript').
+		var wasSubmitted = false;    
+		function checkBeforeSubmit(){
+		if(!wasSubmitted) {
+			wasSubmitted = true;
+			return wasSubmitted;
+		}   else {
+			return false;
+			}
+		} 
+	.container
+		h1.center Register
+		h5.center.spac ENIGMA
+		p.mono(style="margin-top: 1em; font-size: 1.2em") Registrations for Enigma have ended. The event will be held on 29th May, 2020, and you will recieve your credentials soon.
+			.flex-center   
+				a(href="//enigma.teamimpulse.co.in" target="_blank")
+					button.button-primary.enigmabtn Enigma

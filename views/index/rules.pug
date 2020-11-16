@@ -1,122 +1,122 @@
 extends ../layout
 
 block content
-    .container
-        h1.center Rules
-        h4.center Introduction to Enigma and Cryptic Hunts
-        //- .intro-rules
-        //-     p.mono Welcome to Enigma '20, an annual online cryptic hunt organised by Impulse, the physics club of 
-        //-         | the MIS. In these tough times, we've worked hard to bring this event to you so that you can 
-        //-         | hopefully have some fun during the lock-down. We hope you're safe and sound. 
+	.container
+		h1.center Rules
+		h4.center Introduction to Enigma and Cryptic Hunts
+		//- .intro-rules
+		//-     p.mono Welcome to Enigma '20, an annual online cryptic hunt organised by Impulse, the physics club of 
+		//-         | the MIS. In these tough times, we've worked hard to bring this event to you so that you can 
+		//-         | hopefully have some fun during the lock-down. We hope you're safe and sound. 
 
-        //-     p.mono The questions will make use of a variety of clues and prompts (ranging from pop culture to codes and anything in between), using which you must reach the final answer (always physics-related, this may be anything: a theory, a scientist, an instrument, etc. Not necessarily from the school syllabus!). Not a science student or not that great at physics? Don’t worry! You still have a great shot at winning — the clues hidden in the questions themselves do not require any advanced understanding of physics to decode. All you need to participate in Enigma ’20 is your brain(s), logic and a device with an internet connection.
-        //-     p.mono Participation is either individual or in teams of up to 3 people. The event will start on May 29 at 3:14 pm (we love pi!) and will end on May 30, some time in the late evening (it varies year to year).
-        //-     p.mono Now, some of you may not have experience with a cryptic hunt like this. If so, we've got you covered. Just scroll down!
-        //-     p.mono We hope you have a great time!
-        .buttonsduo
-            .flex-center(style="margin-bottom: 2em;")
-                button(onclick="duoBtn1()")#day-one.toggle-btn.selected Rules
-                button(onclick="duoBtn2()")#day-two.toggle-btn Examples    
-        #rulescontent.don1
-            h3 Rules
-            p.mono(style="font-size: 1.2em") Some basic elementary stuff (the exact rules will be on the discord server, don’t worry about that):
-            ol.mono(style="font-size: 1.2em")
-                li You have full use of the internet to help decode the questions.
-                li You do NOT have to be online and participating in the hunt for the entirety of its duration (30+ hours). This should be obvious but there was some confusion regarding this last time, so we thought we would put it out there. Most people work at the hunt for a few hours, and then go and do their own thing for a while and then come back to work at it. 
-                li About nighttime: the site WILL be online. So you’re free to attempt the hunt past the midnight toll (this is generally a good time to catch up as at least some teams go inactive). However, assistance from the Team Impulse, if required, may not be as prompt during night hours.
-                li There will be a total of ‘only’ 19 questions, but don’t be fooled! An Enigma Cryptic Hunt question can take anywhere between 15 minutes and never to never to solve (but the average team solves the average question in say, 45 minutes). So if you’re hopelessly mired in a question with no hope visible, don’t panic! It happens to literally everyone, which is why we give out hints for certain questions at our discretion. Samples of last year’s questions will be given below. 
-                li The questions themselves can be in text, image or external link form. They can reference pop-culture, different languages, riddles, anything.
-                li Now, how will you contact us in case of any issues? Discord! We will send you (and your team members), the invite for the Enigma ‘20 Discord server a few hours before the event (i.e. around 12 noon on 29th May) on the emails that you have entered on the registration form (each team member will need to have discord accounts registered to the same addresses). This will make it easier for us to keep in touch with all teams, and also provide for some light-hearted chatter between the competitors (P.S: We will know if you even TRY to cheat. So don’t.)
-                li You (and your team members, if applicable) will be sent another email with your login details for the competition at 03:14 pm, 29th May.
-        #examplecontent.don2
-            h3 Examples
-            p.mono.sizing We have compiled some of the questions from our previous cryptic hunts in 
-                | case you want to look at the type of questions that are asked.
+		//-     p.mono The questions will make use of a variety of clues and prompts (ranging from pop culture to codes and anything in between), using which you must reach the final answer (always physics-related, this may be anything: a theory, a scientist, an instrument, etc. Not necessarily from the school syllabus!). Not a science student or not that great at physics? Don’t worry! You still have a great shot at winning — the clues hidden in the questions themselves do not require any advanced understanding of physics to decode. All you need to participate in Enigma ’20 is your brain(s), logic and a device with an internet connection.
+		//-     p.mono Participation is either individual or in teams of up to 3 people. The event will start on May 29 at 3:14 pm (we love pi!) and will end on May 30, some time in the late evening (it varies year to year).
+		//-     p.mono Now, some of you may not have experience with a cryptic hunt like this. If so, we've got you covered. Just scroll down!
+		//-     p.mono We hope you have a great time!
+		.buttonsduo
+			.flex-center(style="margin-bottom: 2em;")
+				button(onclick="duoBtn1()")#day-one.toggle-btn.selected Rules
+				button(onclick="duoBtn2()")#day-two.toggle-btn Examples    
+		#rulescontent.don1
+			h3 Rules
+			p.mono(style="font-size: 1.2em") Some basic elementary stuff (the exact rules will be on the discord server, don’t worry about that):
+			ol.mono(style="font-size: 1.2em")
+				li You have full use of the internet to help decode the questions.
+				li You do NOT have to be online and participating in the hunt for the entirety of its duration (30+ hours). This should be obvious but there was some confusion regarding this last time, so we thought we would put it out there. Most people work at the hunt for a few hours, and then go and do their own thing for a while and then come back to work at it. 
+				li About nighttime: the site WILL be online. So you’re free to attempt the hunt past the midnight toll (this is generally a good time to catch up as at least some teams go inactive). However, assistance from the Team Impulse, if required, may not be as prompt during night hours.
+				li There will be a total of ‘only’ 19 questions, but don’t be fooled! An Enigma Cryptic Hunt question can take anywhere between 15 minutes and never to never to solve (but the average team solves the average question in say, 45 minutes). So if you’re hopelessly mired in a question with no hope visible, don’t panic! It happens to literally everyone, which is why we give out hints for certain questions at our discretion. Samples of last year’s questions will be given below. 
+				li The questions themselves can be in text, image or external link form. They can reference pop-culture, different languages, riddles, anything.
+				li Now, how will you contact us in case of any issues? Discord! We will send you (and your team members), the invite for the Enigma ‘20 Discord server a few hours before the event (i.e. around 12 noon on 29th May) on the emails that you have entered on the registration form (each team member will need to have discord accounts registered to the same addresses). This will make it easier for us to keep in touch with all teams, and also provide for some light-hearted chatter between the competitors (P.S: We will know if you even TRY to cheat. So don’t.)
+				li You (and your team members, if applicable) will be sent another email with your login details for the competition at 03:14 pm, 29th May.
+		#examplecontent.don2
+			h3 Examples
+			p.mono.sizing We have compiled some of the questions from our previous cryptic hunts in 
+				| case you want to look at the type of questions that are asked.
 
-            .card
-                h5.question.mono My former student disagreed with somebody great whose discovery influenced
-                    br
-                    | Gearbox Software. I’m fine with AA batteries, but AAA sentenced me to eternal rest. I was also an imbecile to assign something else to dark energy (eh...maybe, maybe not?). I patented this invention of mine (and my student’s) in the US. What cool invention of mine am I talking about?
-                h6.answer 
-                    span.mono Answer: 
-                    span.purpletext Einstein’s Refrigerator
-                p.mono Here how you should have solved this question:
-                ol.mono(style="font-size: 1.2em")
-                    li The easiest hint to go about is ‘Gearbox Software.’ Search Gearbox Software and you will find that they have a game called ‘Half Life.’ This game should set off a trigger in your mind since we’re talking about discoveries.
-                    li Now look up who discovered half-lives? You’ll find that it was Rutherford who discovered this. Since you may not be able to easily move further with this clue, set it aside for a moment.
-                    li Focus on the part about dark energy. Look up something like ‘wrong assignment to dark energy’ and you’ll instantly find that it was Einstein who ignored dark energy in his theories.
-                    li According to the next line (‘patented invention…’), you should look up Einstein’s inventions. For each invention, check which of Einstein’s students worked with him on that project. Given the other clues, you should be able to narrow the student down to Leo Szilard. Szilard disagreed with RUTHERFORD on the concept on nuclear chain reactions (Yep, that’s where our earlier clue -- Rutherford -- comes in. It’s all coming together).
-                    li Lastly, the word ‘cool’ in the last line is a pun used to point to a specific invention of Einstein’s. It’s ‘cool’ because it’s a refrigerator xD.
+			.card
+				h5.question.mono My former student disagreed with somebody great whose discovery influenced
+					br
+					| Gearbox Software. I’m fine with AA batteries, but AAA sentenced me to eternal rest. I was also an imbecile to assign something else to dark energy (eh...maybe, maybe not?). I patented this invention of mine (and my student’s) in the US. What cool invention of mine am I talking about?
+				h6.answer 
+					span.mono Answer: 
+					span.purpletext Einstein’s Refrigerator
+				p.mono Here how you should have solved this question:
+				ol.mono(style="font-size: 1.2em")
+					li The easiest hint to go about is ‘Gearbox Software.’ Search Gearbox Software and you will find that they have a game called ‘Half Life.’ This game should set off a trigger in your mind since we’re talking about discoveries.
+					li Now look up who discovered half-lives? You’ll find that it was Rutherford who discovered this. Since you may not be able to easily move further with this clue, set it aside for a moment.
+					li Focus on the part about dark energy. Look up something like ‘wrong assignment to dark energy’ and you’ll instantly find that it was Einstein who ignored dark energy in his theories.
+					li According to the next line (‘patented invention…’), you should look up Einstein’s inventions. For each invention, check which of Einstein’s students worked with him on that project. Given the other clues, you should be able to narrow the student down to Leo Szilard. Szilard disagreed with RUTHERFORD on the concept on nuclear chain reactions (Yep, that’s where our earlier clue -- Rutherford -- comes in. It’s all coming together).
+					li Lastly, the word ‘cool’ in the last line is a pun used to point to a specific invention of Einstein’s. It’s ‘cool’ because it’s a refrigerator xD.
 
-            .card
-                h5.question.mono I was when everything started,
-                    br 
-                    | I am as I speak 
-                    br 
-                    | And I will be till the end.
-                    br 
-                    | (One might say that I don’t listen to anybody.)
-                    br 
-                    | I can make you see things that may not be.
-                    br 
-                    | Nobody can stop me
-                    br 
-                    | Unless you are inevitable
-                    br 
-                    | (or Sardar Patel) 
-                h6.answer 
-                    span.mono Answer: 
-                    span.purpletext Time
-                p.mono Self explanatory, huh? If it isn’t, go read the question again now that you know the answer.
+			.card
+				h5.question.mono I was when everything started,
+					br 
+					| I am as I speak 
+					br 
+					| And I will be till the end.
+					br 
+					| (One might say that I don’t listen to anybody.)
+					br 
+					| I can make you see things that may not be.
+					br 
+					| Nobody can stop me
+					br 
+					| Unless you are inevitable
+					br 
+					| (or Sardar Patel) 
+				h6.answer 
+					span.mono Answer: 
+					span.purpletext Time
+				p.mono Self explanatory, huh? If it isn’t, go read the question again now that you know the answer.
 
-            .card
-                h5.question.mono For years, we have chased each other! We have provided you with entertainment when you were just a kid, although our mission was something else. How graceful was our dance, round and round we went, for 15 years! 
-                    br
-                    | Let me tell you a bit about what our mission was. Nothing is perfect(➗), and therefore we were propelled to great heights, to look for imperfections. We found so many! They were everywhere, all revealed just by our splendid chase.  But trust me, we had to keep our attitude under control all the time and I don’t think that without that, we would have been able to achieve what we have. It was the most important thing. So control your attitude, keep calm and tell me who we are.
-                h6.answer    
-                    span.mono Answer: 
-                    span.purpletext Tom and Jerry
-                p.mono Don’t think too much. Go with your gut. If something feels simple, it is simple.
+			.card
+				h5.question.mono For years, we have chased each other! We have provided you with entertainment when you were just a kid, although our mission was something else. How graceful was our dance, round and round we went, for 15 years! 
+					br
+					| Let me tell you a bit about what our mission was. Nothing is perfect(➗), and therefore we were propelled to great heights, to look for imperfections. We found so many! They were everywhere, all revealed just by our splendid chase.  But trust me, we had to keep our attitude under control all the time and I don’t think that without that, we would have been able to achieve what we have. It was the most important thing. So control your attitude, keep calm and tell me who we are.
+				h6.answer    
+					span.mono Answer: 
+					span.purpletext Tom and Jerry
+				p.mono Don’t think too much. Go with your gut. If something feels simple, it is simple.
 
-            .card
-                h5.question.mono Once upon a time I had no name or fame. 
-                    br
-                    |Then…..One day ….. I found my name in the 6th prime place of the world. Since then I have been living there only. From thereon I went on to find my talent in preparing middle class sandwiches.
-                    br
-                    | My main job is to make the flavouring for the sandwiches.Sometimes my flavouring is sprinkled on the ham for the dish and at other times it is used to make the outer crust. Remember, the flavouring is the most important.That’s what makes our sandwiches better than others.
-                    br
-                    | Our sandwiches are so popular that you must have had gazillions of them at some point in your life. Probably you are having some of them right now as well.
-                    br
-                    | Identify me.
-                h6.answer    
-                    span.mono Answer: 
-                    span.purpletext Boron
-                p.mono Why?
-                ol.mono(style="font-size: 1.2em")
-                    li ‘I had no name or fame’ - semiconductors were discovered very late
-                    li Easy hint: ‘6th prime place’ - the 6th prime number is 13. This line refers to group 13 of the periodic table
-                    li The 2 sections about middle class sandwiches - reference to BJTs (NPN and PNP transistors).
-                    li ‘Flavouring is important’ - direct reference to the fact that boron is used to dope semiconductors. The p layer in BJTs is doped using boron. Hence ‘sometimes I’m used to prepare the ham and sometimes the crust.’
-                    li The last part of the question is perhaps the most direct hint. You are obviously using an electronic device to look at this question right now. And semiconductors are an essential part of electronics. Since we are looking for the doping agent for semiconductors in group 13, the answer to this question is boron.
+			.card
+				h5.question.mono Once upon a time I had no name or fame. 
+					br
+					|Then…..One day ….. I found my name in the 6th prime place of the world. Since then I have been living there only. From thereon I went on to find my talent in preparing middle class sandwiches.
+					br
+					| My main job is to make the flavouring for the sandwiches.Sometimes my flavouring is sprinkled on the ham for the dish and at other times it is used to make the outer crust. Remember, the flavouring is the most important.That’s what makes our sandwiches better than others.
+					br
+					| Our sandwiches are so popular that you must have had gazillions of them at some point in your life. Probably you are having some of them right now as well.
+					br
+					| Identify me.
+				h6.answer    
+					span.mono Answer: 
+					span.purpletext Boron
+				p.mono Why?
+				ol.mono(style="font-size: 1.2em")
+					li ‘I had no name or fame’ - semiconductors were discovered very late
+					li Easy hint: ‘6th prime place’ - the 6th prime number is 13. This line refers to group 13 of the periodic table
+					li The 2 sections about middle class sandwiches - reference to BJTs (NPN and PNP transistors).
+					li ‘Flavouring is important’ - direct reference to the fact that boron is used to dope semiconductors. The p layer in BJTs is doped using boron. Hence ‘sometimes I’m used to prepare the ham and sometimes the crust.’
+					li The last part of the question is perhaps the most direct hint. You are obviously using an electronic device to look at this question right now. And semiconductors are an essential part of electronics. Since we are looking for the doping agent for semiconductors in group 13, the answer to this question is boron.
 
-            .card
-                h5.question.mono “He’s just a poor boy from a poor family,
-                    br
-                    | Spare him his life from his monstrosity.”
-                    br
-                    br
+			.card
+				h5.question.mono “He’s just a poor boy from a poor family,
+					br
+					| Spare him his life from his monstrosity.”
+					br
+					br
 
-                    | Greek god 15, in the infinite blackness,
-                    br
-                    | He ‘proved’ that old man right. 
-                h6.answer    
-                    span.mono Answer: 
-                    span.purpletext David Scott
-                p.mono Hint: Apollo
-                p.mono Explanation: This is a favourite. The lyrics are lines of Queen’s Bohemian Rhapsody. The only physics-related item mentioned in the song is ‘Galileo’ (that old man). Greek God 15 refers to Apollo 15 (infinite blackness => space), one of the manned moon missions. One of the astronauts on it, David Scott performed the famous Hammer-Feather Drop experiment on the moon - both indeed fell together in the near-vacuum conditions on the moon.
+					| Greek god 15, in the infinite blackness,
+					br
+					| He ‘proved’ that old man right. 
+				h6.answer    
+					span.mono Answer: 
+					span.purpletext David Scott
+				p.mono Hint: Apollo
+				p.mono Explanation: This is a favourite. The lyrics are lines of Queen’s Bohemian Rhapsody. The only physics-related item mentioned in the song is ‘Galileo’ (that old man). Greek God 15 refers to Apollo 15 (infinite blackness => space), one of the manned moon missions. One of the astronauts on it, David Scott performed the famous Hammer-Feather Drop experiment on the moon - both indeed fell together in the near-vacuum conditions on the moon.
 
 
-    script(src="/main.js")
+	script(src="/main.js")
 //- extends ../layout
 
 //- block content

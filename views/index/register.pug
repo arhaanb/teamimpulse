@@ -2,126 +2,126 @@ extends ../layout
 
 block content
 
-    script(type='text/javascript').
-        var wasSubmitted = false;    
-        function checkBeforeSubmit(){
-        if(!wasSubmitted) {
-            wasSubmitted = true;
-            return wasSubmitted;
-        }   else {
-            return false;
-            }
-        } 
-    .container
-        h1.center Register
-        h5.center.spac ENIGMA
-        p.mono(style="margin-top: 1em; font-size: 1.2em") You can take part in this event individually or in groups of upto 3. Make sure you read the rules 
-            a(href="/rules") here
-            |  before you proceed.
-        form(action='/register' method='post' onsubmit="return checkBeforeSubmit()")
-            label Team Name 
-                span.required *
-                input.u-full-width(type='text' name='teamName' autocomplete='name' required='')
+	script(type='text/javascript').
+		var wasSubmitted = false;    
+		function checkBeforeSubmit(){
+		if(!wasSubmitted) {
+			wasSubmitted = true;
+			return wasSubmitted;
+		}   else {
+			return false;
+			}
+		} 
+	.container
+		h1.center Register
+		h5.center.spac ENIGMA
+		p.mono(style="margin-top: 1em; font-size: 1.2em") You can take part in this event individually or in groups of upto 3. Make sure you read the rules 
+			a(href="/rules") here
+			|  before you proceed.
+		form(action='/register' method='post' onsubmit="return checkBeforeSubmit()")
+			label Team Name 
+				span.required *
+				input.u-full-width(type='text' name='teamName' autocomplete='name' required='')
 
-            section#player.borders
-                h5 Player 1
-                .spacing.row
-                    .one-third.column
-                        label Name 
-                            span.required *
-                        input.u-full-width(type='text' name='p1Name' autocomplete='name' required='')
-                    .one-third.column
-                        label Email 
-                            span.required *
-                        input.u-full-width(type='email' name='p1Email' autocomplete='email' required='')
-                    .one-third.column
-                        label Phone Number 
-                            span.required *
-                        input.u-full-width(type='number' name='p1Phone' autocomplete='Phone' required='')
-                .spacing.row
-                    .custom-select.one-half.column
-                        label Select Class 
-                            span.required *
-                        select.u-full-width#class(name='p1Class' required='' onchange="changeFunc();")
-                            option(value='' selected disabled) Choose Class
-                            option(value='9') 9
-                            option(value='10') 10
-                            option(value='11') 11
-                            option(value='12') 12
-                    .custom-select.one-half.column
-                        label Select Section 
-                            span.required *
-                        select.u-full-width#section(name='p1Section' required='')
-                            option(value='' selected disabled) Choose Section
-                            option(value='A') A
-                            option(value='B') B
-                            option(value='C') C
-                            option(value='D') D
-                            option(value='E') E
-                            option(value='F') F
+			section#player.borders
+				h5 Player 1
+				.spacing.row
+					.one-third.column
+						label Name 
+							span.required *
+						input.u-full-width(type='text' name='p1Name' autocomplete='name' required='')
+					.one-third.column
+						label Email 
+							span.required *
+						input.u-full-width(type='email' name='p1Email' autocomplete='email' required='')
+					.one-third.column
+						label Phone Number 
+							span.required *
+						input.u-full-width(type='number' name='p1Phone' autocomplete='Phone' required='')
+				.spacing.row
+					.custom-select.one-half.column
+						label Select Class 
+							span.required *
+						select.u-full-width#class(name='p1Class' required='' onchange="changeFunc();")
+							option(value='' selected disabled) Choose Class
+							option(value='9') 9
+							option(value='10') 10
+							option(value='11') 11
+							option(value='12') 12
+					.custom-select.one-half.column
+						label Select Section 
+							span.required *
+						select.u-full-width#section(name='p1Section' required='')
+							option(value='' selected disabled) Choose Section
+							option(value='A') A
+							option(value='B') B
+							option(value='C') C
+							option(value='D') D
+							option(value='E') E
+							option(value='F') F
 
-            section#player.borders
-                h5 Player 2
-                .spacing.row
-                    .one-third.column
-                        label Name 
-                        input.u-full-width(type='text' name='p2Name' autocomplete='name')
-                    .one-third.column
-                        label Email 
-                        input.u-full-width(type='email' name='p2Email' autocomplete='email')
-                    .one-third.column
-                        label Phone Number 
-                        input.u-full-width(type='number' name='p2Phone' autocomplete='Phone')
-                .spacing.row
-                    .custom-select.one-half.column
-                        label Select Class 
-                        select.u-full-width#class(name='p2Class')
-                            option(value='' selected disabled) Choose Class
-                            option(value='9') 9
-                            option(value='10') 10
-                            option(value='11') 11
-                            option(value='12') 12
-                    .custom-select.one-half.column
-                        label Select Section 
-                        select.u-full-width#section(name='p2Section')
-                            option(value='' selected disabled) Choose Section
-                            option(value='A') A
-                            option(value='B') B
-                            option(value='C') C
-                            option(value='D') D
-                            option(value='E') E
-                            option(value='F') F
+			section#player.borders
+				h5 Player 2
+				.spacing.row
+					.one-third.column
+						label Name 
+						input.u-full-width(type='text' name='p2Name' autocomplete='name')
+					.one-third.column
+						label Email 
+						input.u-full-width(type='email' name='p2Email' autocomplete='email')
+					.one-third.column
+						label Phone Number 
+						input.u-full-width(type='number' name='p2Phone' autocomplete='Phone')
+				.spacing.row
+					.custom-select.one-half.column
+						label Select Class 
+						select.u-full-width#class(name='p2Class')
+							option(value='' selected disabled) Choose Class
+							option(value='9') 9
+							option(value='10') 10
+							option(value='11') 11
+							option(value='12') 12
+					.custom-select.one-half.column
+						label Select Section 
+						select.u-full-width#section(name='p2Section')
+							option(value='' selected disabled) Choose Section
+							option(value='A') A
+							option(value='B') B
+							option(value='C') C
+							option(value='D') D
+							option(value='E') E
+							option(value='F') F
 
-            section#player
-                h5 Player 3
-                .spacing.row
-                    .one-third.column
-                        label Name 
-                        input.u-full-width(type='text' name='p3Name' autocomplete='name')
-                    .one-third.column
-                        label Email 
-                        input.u-full-width(type='email' name='p3Email' autocomplete='email' )
-                    .one-third.column
-                        label Phone Number 
-                        input.u-full-width(type='number' name='p3Phone' autocomplete='Phone' )
-                .spacing.row
-                    .custom-select.one-half.column
-                        label Select Class 
-                        select.u-full-width#class(name='p3Class')
-                            option(value='' selected disabled) Choose Class
-                            option(value='9') 9
-                            option(value='10') 10
-                            option(value='11') 11
-                            option(value='12') 12
-                    .custom-select.one-half.column
-                        label Select Section 
-                        select.u-full-width#section(name='p3Section')
-                            option(value='' selected disabled) Choose Section
-                            option(value='A') A
-                            option(value='B') B
-                            option(value='C') C
-                            option(value='D') D
-                            option(value='E') E
-                            option(value='F') F
-            .flex-center
-                input.u-pull-right.button-primary.regs-button#submission(type='submit' value='Register' name='myButton')
+			section#player
+				h5 Player 3
+				.spacing.row
+					.one-third.column
+						label Name 
+						input.u-full-width(type='text' name='p3Name' autocomplete='name')
+					.one-third.column
+						label Email 
+						input.u-full-width(type='email' name='p3Email' autocomplete='email' )
+					.one-third.column
+						label Phone Number 
+						input.u-full-width(type='number' name='p3Phone' autocomplete='Phone' )
+				.spacing.row
+					.custom-select.one-half.column
+						label Select Class 
+						select.u-full-width#class(name='p3Class')
+							option(value='' selected disabled) Choose Class
+							option(value='9') 9
+							option(value='10') 10
+							option(value='11') 11
+							option(value='12') 12
+					.custom-select.one-half.column
+						label Select Section 
+						select.u-full-width#section(name='p3Section')
+							option(value='' selected disabled) Choose Section
+							option(value='A') A
+							option(value='B') B
+							option(value='C') C
+							option(value='D') D
+							option(value='E') E
+							option(value='F') F
+			.flex-center
+				input.u-pull-right.button-primary.regs-button#submission(type='submit' value='Register' name='myButton')
