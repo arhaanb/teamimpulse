@@ -24,7 +24,7 @@
     "nodemailer": "^6.4.6",
     "nodemailer-express-handlebars": "^4.0.0",
     "nodemon": "^2.0.3",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "request": "^2.81.0"
   }
 }
